@@ -18,9 +18,9 @@
 }
 
 html {
-  /*  font-size: 14px;
-  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-  font-family: "Noto Serif SC", "LXGWNeoXiHei", "Source Sans Pro", sans-serif;
+  /*  font-size: 14px; */
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* font-family: "Noto Serif SC", "LXGWNeoXiHei", "Source Sans Pro", sans-serif; */
   font-size: 16pt;
   line-height: 1.5;
 }

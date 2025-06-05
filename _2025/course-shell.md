@@ -47,9 +47,9 @@ missing:~$ cat hello2.txt
 hello
 ```
 
-您还可以使用 `>>` 来向一个文件追加内容。使用管道能够更好的利用文件重定向。
+可以使用 `>>` 来向一个文件追加内容。
 
-`|` 操作符允许我们将一个程序的输出和另外一个程序的输入连接起来：
+`|` 允许我们将一个程序的输出和另外一个程序的输入连接起来：
 
 ```console
 missing:~$ ls -l / | tail -n1
@@ -58,7 +58,7 @@ missing:~$ curl --head --silent google.com | grep --ignore-case content-length |
 219
 ```
 
-# 课后练习
+## 课后练习
 
 将以下内容一行一行地写入 `semester` 文件，可以使用单引号''包含`#!/bin/sh`。
 

@@ -21,14 +21,14 @@ html {
   /*  font-size: 14px; */
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   /* font-family: "Noto Serif SC", "LXGWNeoXiHei", "Source Sans Pro", sans-serif; */
-  font-size: 14pt;
-  line-height: 1.5;
+  font-size: 12pt;
+  /* line-height: 1.5; */
 }
 
 @media(min-width: 480px) {
   html {
     /*font-size: 16px;*/
-    font-size: 16pt;
+    /* font-size: 14pt; */
   }
 }
 
@@ -59,7 +59,7 @@ h1 {
 
 h2 {
   margin-top: 1.25rem;
-  font-size: 1.25rem;
+  font-size: 1.35rem;
 }
 
 p {
@@ -121,10 +121,10 @@ code {
 }
 
 code {
-  background-color: rgba(27, 31, 35, .05);
+  /* background-color: rgb(23 0 126);
   border-radius: 3px;
   padding: 0 0.2rem;
-  font-size: 0.9em;
+  color: #fff; */
   /* font-size: 12pt; */
 }
 

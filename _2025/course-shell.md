@@ -349,10 +349,10 @@ ssh-copy-id -i .ssh/id_ed25519.pub foobar@remote
 此时就需要进行 _端口转发_。端口转发有两种，一种是本地端口转发和远程端口转发（参见下图，该图片引用自这篇 [StackOverflow 文章](https://unix.stackexchange.com/questions/115897/whats-ssh-port-forwarding-and-whats-the-difference-between-ssh-local-and-remot)）中的图片。
 
 **本地端口转发**
-![Local Port Forwarding](https://i.stack.imgur.com/a28N8.png "本地端口转发")
+![Local Port Forwarding](../static/media/demos/1-ssh-port1.png "本地端口转发")
 
 **远程端口转发**
-![Remote Port Forwarding](https://i.stack.imgur.com/4iK3b.png "远程端口转发")
+![Remote Port Forwarding](../static/media/demos/1-ssh-port2.png "远程端口转发")
 
 常见的情景是使用本地端口转发，即远端设备上的服务监听一个端口，而您希望在本地设备上的一个端口建立连接并转发到远程端口上。例如，我们在远端服务器上运行 Jupyter notebook 并监听 `8888` 端口。 然后，建立从本地端口 `9999` 的转发，使用 `ssh -L 9999:localhost:8888 foobar@remote_server` 。这样只需要访问本地的 `localhost:9999` 即可。
 

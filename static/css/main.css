@@ -78,6 +78,7 @@ em {
 ul {
   list-style-position: inside;
   padding-left: 1rem;
+  margin-bottom: 1rem;
 }
 
 ol {

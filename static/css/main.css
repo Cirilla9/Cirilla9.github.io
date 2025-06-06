@@ -102,7 +102,7 @@ ul ul,
 ol ul,
 ul ol,
 ol ol {
-  margin-bottom: inherit;
+  /* margin-bottom: inherit; */
 }
 
 ul li:before {

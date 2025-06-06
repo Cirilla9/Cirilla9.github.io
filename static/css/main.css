@@ -21,14 +21,14 @@ html {
   /*  font-size: 14px; */
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   /* font-family: "Noto Serif SC", "LXGWNeoXiHei", "Source Sans Pro", sans-serif; */
-  font-size: 12pt;
+  font-size: 14pt;
   /* line-height: 1.5; */
 }
 
 @media(min-width: 480px) {
   html {
     /*font-size: 16px;*/
-    /* font-size: 14pt; */
+    font-size: 14pt;
   }
 }
 
@@ -125,7 +125,8 @@ code {
   border-radius: 3px;
   padding: 0 0.2rem;
   color: #fff; */
-  /* font-size: 12pt; */
+  font-size: 12pt;
+  padding: 0 0.2rem;
 }
 
 pre {
@@ -245,7 +246,7 @@ hr {
 #nav-bg {
   margin: 0;
   padding: 0.25rem 1rem;
-  font-family: "Noto Serif SC", "LXGWNeoXiHei", "Source Code Pro", "Menlo", "DejaVu Sans Mono", "Lucida Console", monospace;
+  font-family: "Noto Serif SC", "Source Code Pro", "Menlo", "DejaVu Sans Mono", "Lucida Console", monospace;
   background: #17007e;
   color: #fff;
 }
